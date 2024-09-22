@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
-# Step 1: Load the dataset (replace 'nba_draft_data.csv' with your actual dataset path)
+# Step 1: Load the dataset (replace 'nba_draft_data.csv' with your actual dataset path) 
 df = pd.read_csv('nba_draft_data.csv')
 
 # Step 2: Data Cleaning and Preparation
